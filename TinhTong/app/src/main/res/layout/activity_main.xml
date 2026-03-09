@@ -45,7 +45,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="1dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="text"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/edtA" />
 
@@ -55,9 +55,11 @@
         android:layout_height="48dp"
         android:layout_marginStart="130dp"
         android:layout_marginTop="15dp"
+        android:onClick="XuLyCong"
         android:text="Tính tổng"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtB" />
+        app:layout_constraintTop_toBottomOf="@+id/edtB"
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/textView3"
@@ -69,14 +71,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTong" />
 
-    <EditText
+    <TextView
         android:id="@+id/edtKQ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="151dp"
+        android:layout_height="29dp"
         android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:gravity="start"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/btnTong" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
