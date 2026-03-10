@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btn1"
+        android:text="Nút số 1"
+        android:textSize="30dp"
+        android:textColor="#97E6DA"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:id="@+id/btn2"
+        android:text="Nút số 2"
+        android:textSize="30dp"
+        android:textColor="#00E6DA"
+        android:background="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />    <Button
+        android:id="@+id/btn3"
+        android:text="Nút số 3"
+        android:textSize="30dp"
+        android:textColor="#10E0DA"
+        android:background="@color/black"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        />
+
+
+</LinearLayout>
