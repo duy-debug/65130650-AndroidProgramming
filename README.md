@@ -1,4 +1,4 @@
-# Android Programming Exercises - 65130650
+# Lập Trình Thiết Bị Di Động - 65130650
 
 ### Install:
 ---
