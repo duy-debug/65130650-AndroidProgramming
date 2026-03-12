@@ -1,4 +1,4 @@
-# Lập Trình Thiết Bị Di Động - 65130650
+# Android Programming Exercises - 65130650
 
 ### Install:
 ---
@@ -11,6 +11,14 @@
 
 ---
 *Quá trình thực hiện bài tập*
+
+### Bài tập 5: App Tính Chỉ số khối cơ thể (BMI_app)
+[Chi tiết bài tập](./BMI_app/app/src/main/java/com/example/bmi_app/MainActivity.java)
+
+![BMI_app Screenshot](./Images/bmi.png)
+*Ứng dụng tính toán chỉ số BMI dựa trên chiều cao và cân nặng của người dùng.*
+
+---
 
 ### Bài tập 4: App Tính Cộng Trừ Nhân Chia (AppCongTruNhanChia)
 [Chi tiết bài tập](./AppCongTruNhanChia/app/src/main/java/com/example/appcongtrunhanchia/MainActivity.java)
