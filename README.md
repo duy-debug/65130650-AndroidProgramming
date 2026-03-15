@@ -1,4 +1,4 @@
-# Android Programming Exercises - 65130650
+# Lập trình thiết bị di động - 65130650
 
 ### Install:
 ---
@@ -11,6 +11,15 @@
 
 ---
 *Quá trình thực hiện bài tập*
+
+### Bài tập 6: Máy tính Calculator (Calculator)
+[Chi tiết bài tập](./Calculator/app/src/main/java/com/example/calculator/MainActivity.java)
+
+![Calculator Screenshot](./Images/calculator.png)
+![Calculator Screenshot](./Images/calculator1.png)
+*Ứng dụng máy tính bỏ túi với giao diện đầy đủ các phím số và phép tính nâng cao.*
+
+---
 
 ### Bài tập 5: App Tính Chỉ số khối cơ thể (BMI_app)
 [Chi tiết bài tập](./BMI_app/app/src/main/java/com/example/bmi_app/MainActivity.java)
