@@ -12,6 +12,14 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 7: Danh sách Tỉnh Thành (DanhSachTinhThanh)
+[Chi tiết bài tập](./DanhSachTinhThanh/app/src/main/java/tmnduy/ntu/danhsachtinhthanh/MainActivity.java)
+
+![DanhSachTinhThanh Screenshot](./Images/listview.png)
+*Sử dụng ListView để hiển thị danh sách các tỉnh thành Việt Nam.*
+
+---
+
 ### Bài tập 6: Máy tính Calculator (Calculator)
 [Chi tiết bài tập](./Calculator/app/src/main/java/com/example/calculator/MainActivity.java)
 
