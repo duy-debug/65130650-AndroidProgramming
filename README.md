@@ -12,6 +12,14 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 8: Danh sách Vật Liệu (DanhSachVatLieu)
+[Chi tiết bài tập](./DanhSachVatLieu/app/src/main/java/tmnduy/ntu/danhsachvatlieu/MainActivity.java)
+
+![DanhSachVatLieu Screenshot](./Images/listviewvatlieu.png)
+*Sử dụng ListView để hiển thị danh sách các loại vật liệu xây dựng.*
+
+---
+
 ### Bài tập 7: Danh sách Tỉnh Thành (DanhSachTinhThanh)
 [Chi tiết bài tập](./DanhSachTinhThanh/app/src/main/java/tmnduy/ntu/danhsachtinhthanh/MainActivity.java)
 
