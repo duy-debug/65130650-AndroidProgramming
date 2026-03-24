@@ -15,7 +15,8 @@
 ### Bài tập 9: Danh sách Món Ăn (AppMonAn)
 [Chi tiết bài tập](./AppMonAn/app/src/main/java/tmnduy/ntu/appmonan/MainActivity.java)
 
-![AppMonAn Screenshot](./Images/dsMonAn.png)
+<img src="./Images/dsMonAn.png" width="250" alt="AppMonAn Screenshot">
+
 *Ứng dụng danh sách các loại món ăn với khả năng xem chi tiết thông tin từng món.*
 
 ---
