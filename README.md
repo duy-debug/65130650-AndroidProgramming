@@ -12,6 +12,14 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 9: Danh sách Món Ăn (AppMonAn)
+[Chi tiết bài tập](./AppMonAn/app/src/main/java/tmnduy/ntu/appmonan/MainActivity.java)
+
+![AppMonAn Screenshot](./Images/dsMonAn.png)
+*Ứng dụng danh sách các loại món ăn với khả năng xem chi tiết thông tin từng món.*
+
+---
+
 ### Bài tập 8: Danh sách Vật Liệu (DanhSachVatLieu)
 [Chi tiết bài tập](./DanhSachVatLieu/app/src/main/java/tmnduy/ntu/danhsachvatlieu/MainActivity.java)
 
