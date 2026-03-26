@@ -12,6 +12,17 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 10: Sử dụng RecyclerView (UsingRecyclerView)
+[Chi tiết bài tập](./UsingRecyclerView/app/src/main/java/tmnduy/ntu/usingrecyclerview/MainActivity.java)
+
+<img src="./Images/rv1.png" width="250" height="400" alt="UsingRecyclerView Screenshot">
+<img src="./Images/rv2.png" width="250" height="400" alt="UsingRecyclerView Screenshot">
+<img src="./Images/rv3.png" width="250" height="400" alt="UsingRecyclerView Screenshot">
+
+*Sử dụng RecyclerView để hiển thị danh sách dữ liệu tối ưu và linh hoạt hơn so với ListView.*
+
+---
+
 ### Bài tập 9: Danh sách Món Ăn (AppMonAn)
 [Chi tiết bài tập](./AppMonAn/app/src/main/java/tmnduy/ntu/appmonan/MainActivity.java)
 
