@@ -12,6 +12,15 @@
 ---
 *Quá trình thực hiện bài tập*
 
+### Bài tập 11: Đọc báo tổng hợp (DocBaoTongHop)
+[Chi tiết bài tập](./DocBaoTongHop/app/src/main/java/tmnduy/ntu/docbaotonghop/MainActivity.java)
+
+<img src="./Images/appdocbao.png" width="250" height="400" alt="DocBaoTongHop Screenshot">
+
+*Ứng dụng đọc báo tổng hợp từ các nguồn RSS, hiển thị danh sách tin tức và xem nội dung chi tiết.*
+
+---
+
 ### Bài tập 10: Sử dụng RecyclerView (UsingRecyclerView)
 [Chi tiết bài tập](./UsingRecyclerView/app/src/main/java/tmnduy/ntu/usingrecyclerview/MainActivity.java)
 
