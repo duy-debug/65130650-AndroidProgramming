@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FragmentEx_Statically</string>
+
+    <!-- Footer -->
+    <string name="nav_one">Một</string>
+    <string name="nav_two">Hai</string>
+    <string name="nav_three">Ba</string>
+
+    <!-- Fragment 1 -->
+    <string name="frg1_title">Màn hình Một</string>
+    <string name="frg1_desc">Chọn Một/Hai/Ba ở thanh dưới để đổi màn hình. Đây là giao diện Fragment 1.</string>
+    <string name="frg1_card_title">Hôm nay</string>
+    <string name="frg1_card_sub">Một thẻ thông tin nhỏ để minh hoạ giao diện.</string>
+    <string name="frg1_btn_explore">Khám phá</string>
+
+    <!-- Fragment 2 -->
+    <string name="frg2_badge">THÔNG BÁO</string>
+    <string name="frg2_title">Bạn có 3 thông báo mới</string>
+    <string name="frg2_sub">Bạn muốn làm mới danh sách hay xoá tất cả?</string>
+    <string name="frg2_btn_primary">Xoá tất cả</string>
+    <string name="frg2_btn_secondary">Làm mới</string>
+
+    <!-- Fragment 3 -->
+    <string name="frg3_header">Trang chủ</string>
+    <string name="frg3_hint">Tóm tắt nhanh những việc bạn cần làm hôm nay</string>
+    <string name="frg3_card_a_title">Bài tập</string>
+    <string name="frg3_card_a_sub">Hạn trong tuần này</string>
+    <string name="frg3_card_b_title">Thể thao</string>
+    <string name="frg3_card_b_sub">Lịch tập sắp tới</string>
+    <string name="frg3_card_c_title">Sự kiện</string>
+    <string name="frg3_card_c_sub">Hôm nay</string>
+
+    <string name="frg3_value_a">12</string>
+    <string name="frg3_value_b">3</string>
+    <string name="frg3_value_c">2</string>
+
+    <!-- Content fragment (nếu dùng) -->
+    <string name="content_hello">Xin chào Fragment</string>
+</resources>
