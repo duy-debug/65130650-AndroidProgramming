@@ -15,7 +15,7 @@
 ### Bài tập 13: Ôn tập thi (OnTapThi)
 [Chi tiết bài tập](./OnTapThi/app/src/main/java/tmnduy/ntu/ontapthi/MainActivity.java)
 
-<img src="./Images/o1.png" width="200"> <img src="./Images/o2.png" width="200"> <img src="./Images/o3.png" width="200"> <img src="./Images/o4.png" width="200"> <img src="./Images/o5.png" width="200">
+<img src="./Images/o1.png" width="200"> <img src="./Images/o2.png" width="200"> <img src="./Images/o3.png" width="200"> <img src="./Images/o4.png" width="200"> <img src="./Images/o5.png" width="200"><img src="./Images/bg.png" width="200">
 
 *Ứng dụng tổng hợp các kiến thức đã học bao gồm Fragment, Navigation Drawer, SharedPreferences để ôn tập cho kỳ thi.*
 
