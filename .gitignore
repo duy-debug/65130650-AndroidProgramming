@@ -29,3 +29,12 @@ Captures/
 
 # Google Services
 google-services.json
+# Android / Gradle
+.gradle/
+**/.gradle/
+**/.gradle-user-home/
+**/.gradle-user-home2/
+**/build/
+local.properties
+# Gradle wrapper temp files
+*.zip.part

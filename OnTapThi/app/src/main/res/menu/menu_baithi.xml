@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/tab_home" />
+    <item
+        android:id="@+id/navigation_welcome"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="@string/tab_welcome" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="@string/tab_profile" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="@string/tab_settings" />
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="@string/tab_about" />
 </menu>
