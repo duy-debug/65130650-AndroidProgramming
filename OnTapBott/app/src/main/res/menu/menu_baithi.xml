@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Welcome" />
+    <item
+        android:id="@+id/nav_cau1"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Câu 1" />
+    <item
+        android:id="@+id/nav_cau2"
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="Câu 2" />
+    <item
+        android:id="@+id/nav_cau3"
+        android:icon="@android:drawable/radiobutton_off_background"
+        android:title="Câu 3" />
+    <item
+        android:id="@+id/nav_cau4"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Câu 4" />
+    <item
+        android:id="@+id/nav_cau5"
+        android:icon="@android:drawable/btn_star_big_on"
+        android:title="Câu 5" />
+    <item
+        android:id="@+id/nav_cau6"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Câu 6" />
+</menu>
