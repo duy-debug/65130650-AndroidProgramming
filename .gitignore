@@ -38,3 +38,14 @@ google-services.json
 local.properties
 # Gradle wrapper temp files
 *.zip.part
+.idea/
+.gradle/
+**/build/
+local.properties
+**/.gradle-user-home/
+**/.gradle-user-home2/
+**/.tmp/
+**/g/
+*.part
+*.lck
+*.tmp

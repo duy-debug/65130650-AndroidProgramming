@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="screen_background">#F4F8FC</color>
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="card_stroke">#D8E2EC</color>
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="image_placeholder_bg">#E8EEF5</color>
+    <color name="header_blue_dark">#1F5AA6</color>
+    <color name="button_blue">#2F5DA8</color>
+    <color name="button_blue_light">#4E8FE0</color>
+    <color name="button_blue_lighter">#5AA2F2</color>
+    <color name="button_blue_soft">#6BB0FF</color>
+    <color name="fragment_background">#FFF9E6</color>
+    <color name="news_screen_background">#F4F8FC</color>
+    <color name="news_header_background">#DCEBFF</color>
+    <color name="news_header_title">#173A63</color>
+    <color name="news_card_shadow">#12000000</color>
+    <color name="news_date_text">#7B8A9A</color>
+</resources>

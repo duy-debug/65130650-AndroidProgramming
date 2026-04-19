@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_trangchu"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/nav_cau1"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Câu 1" />
+    <item
+        android:id="@+id/nav_cau2"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Câu 2" />
+    <item
+        android:id="@+id/nav_cau3"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Câu 3" />
+    <item
+        android:id="@+id/nav_cau4"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Câu 4" />
+    <item
+        android:id="@+id/nav_cau5"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Câu 5" />
+</menu>
