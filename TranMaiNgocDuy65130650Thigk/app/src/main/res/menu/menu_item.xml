@@ -9,6 +9,10 @@
         android:icon="@android:drawable/alert_light_frame"
         android:title="Câu 4" />
     <item
+        android:id="@+id/nav_cau2"
+        android:icon="@android:drawable/alert_light_frame"
+        android:title="Câu 2" />
+    <item
         android:id="@+id/nav_cau3"
         android:icon="@android:drawable/alert_light_frame"
         android:title="Câu 1" />

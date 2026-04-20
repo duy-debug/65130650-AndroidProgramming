@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:gravity="center"
-            android:text="Tính Diện Tích"
+            android:text="Diện Tích Và Chu Vi"
             android:textColor="@android:color/white"
             android:textSize="27sp"
             android:textStyle="bold" />
@@ -118,7 +118,7 @@
                         android:layout_height="52dp"
                         android:layout_marginBottom="8dp"
                         android:backgroundTint="@color/button_blue"
-                        android:text="TÍNH DIỆN TÍCH"
+                        android:text="TÍNH DIỆN TÍCH VÀ CHU VI"
                         android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:textSize="16sp"
