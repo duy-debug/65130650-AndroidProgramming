@@ -78,7 +78,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="14dp"
                         android:orientation="horizontal">
-
                         <com.google.android.material.button.MaterialButton
                             android:id="@+id/btnTrangChuAboutMe"
                             android:layout_width="0dp"
@@ -90,7 +89,17 @@
                             android:textColor="@android:color/white"
                             app:backgroundTint="@color/button_blue"
                             app:cornerRadius="14dp" />
-
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnTinh"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_weight="1"
+                            android:text="Danh Sach Tinh Thanh"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/white"
+                            app:backgroundTint="@color/button_blue"
+                            app:cornerRadius="14dp" />
 
                     </LinearLayout>
 
@@ -106,7 +115,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
                             android:layout_weight="1"
-                            android:text="Diện tích và chu vi"
+                            android:text="Tính Diện Tích Chu Vi"
                             android:textAllCaps="false"
                             android:textColor="@android:color/white"
                             app:backgroundTint="@color/button_blue_light"
