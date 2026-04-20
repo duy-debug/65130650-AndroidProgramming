@@ -57,11 +57,11 @@ public class Cau5Fragment extends Fragment {
 
         // Tao danh sach anh co san trong drawable de hien thi len RecyclerView
         ArrayList<DiaDiemDuLich.ItemCongTrinh> dsCongTrinh = new ArrayList<>();
-        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình giới thiệu địa điểm du lịch Tháp Bà Ponagar tại Nha Trang", "anh1", "Ngày đăng: 01/04/2025"));
-        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình tìm hiểu vẻ đẹp du lịch biển tại Hòn Chồng Nha Trang", "anh2", "Ngày đăng: 02/04/2025"));
-        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình khám phá khu du lịch VinWonders trên đảo Hòn Tre Nha Trang", "anh3", "Ngày đăng: 03/04/2025"));
-        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình giới thiệu danh lam thắng cảnh Bãi Dài nổi tiếng ở Nha Trang", "anh4", "Ngày đăng: 04/04/2025"));
-        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình tìm hiểu vẻ đẹp tự nhiên và du lịch sinh thái tại đảo Bình Ba", "anh5", "Ngày đăng: 05/04/2025"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Địa điểm du lịch Tháp Bà Ponagar tại Nha Trang", "anh1", "Địa chỉ: 61 Hai Tháng Tư, Vĩnh Phước, Nha Trang, Khánh Hòa"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Địa điểm du lịch Hòn Chồng Nha Trang", "anh2", "Địa chỉ: Phạm Văn Đồng, Vĩnh Phước, Nha Trang, Khánh Hòa"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Địa điểm du lịch VinWonders trên đảo Hòn Tre Nha Trang", "anh3", "Địa chỉ: Đảo Hòn Tre, Vĩnh Nguyên, Nha Trang, Khánh Hòa"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Địa điểm du lịch Bãi Dài nổi tiếng ở Nha Trang", "anh4", "Địa chỉ: Xã Cam Hải Đông, huyện Cam Lâm, Khánh Hòa"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Địa điểm du lịch đảo Bình Ba", "anh5", "Địa chỉ: Xã Cam Bình, thành phố Cam Ranh, Khánh Hòa"));
 
         rvDanhSachAnh.setLayoutManager(new LinearLayoutManager(requireContext()));
 

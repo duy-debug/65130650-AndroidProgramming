@@ -59,7 +59,9 @@ public class MainActivity extends AppCompatActivity implements TrangChuFragment.
             selectedFragment = new TrangChuFragment();
         } else if (itemId == R.id.nav_cau1) {
             selectedFragment = new Cau1Fragment();
-        }  else if (itemId == R.id.nav_cau3) {
+        } else if (itemId == R.id.nav_cau2) {
+            selectedFragment = new Cau2Fragment();
+        } else if (itemId == R.id.nav_cau3) {
             selectedFragment = new Cau3Fragment();
         } else if (itemId == R.id.nav_cau4) {
             selectedFragment = new Cau4Fragment();

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -32,6 +33,8 @@ public class TinhThanhAdapter extends RecyclerView.Adapter<TinhThanhAdapter.Tinh
     public void onBindViewHolder(@NonNull TinhThanhViewHolder holder, int position) {
         TinhThanhItem item = dsTinhThanh.get(position);
         holder.tvTen.setText(item.getTen());
+        holder.itemView.setOnClickListener(v ->
+                Toast.makeText(context, item.getTen(), Toast.LENGTH_SHORT).show());
     }
 
     @Override
