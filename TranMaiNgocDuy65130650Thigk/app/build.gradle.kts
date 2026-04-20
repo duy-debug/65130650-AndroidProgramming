@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "thigk2.tranmaingocduy.ontapthigk"
+    namespace = "thigk2.tranmaingocduy.tranmaingocduy65130650thigk"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "tmnduy.ntu.ontapthigk"
+        applicationId = "thigk2.tranmaingocduy.tranmaingocduy65130650thigk"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -38,11 +38,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.recyclerview)
-    implementation(libs.cardview)
-    implementation(libs.glide)
-    annotationProcessor(libs.glide.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
 }
