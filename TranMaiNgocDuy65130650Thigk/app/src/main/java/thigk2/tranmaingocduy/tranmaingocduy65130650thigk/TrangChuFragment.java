@@ -46,13 +46,11 @@ public class TrangChuFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         Button btnAboutMe = view.findViewById(R.id.btnTrangChuAboutMe);
-        Button btnBMI = view.findViewById(R.id.btnTrangChuBMI);
         Button btnDienTich = view.findViewById(R.id.btnTrangChuDienTich);
         Button btnRSS = view.findViewById(R.id.btnTrangChuRSS);
         Button btnThuVienAnh = view.findViewById(R.id.btnTrangChuThuVienAnh);
 
         btnAboutMe.setOnClickListener(v -> navigateTo(R.id.nav_cau1));
-        btnBMI.setOnClickListener(v -> navigateTo(R.id.nav_cau2));
         btnDienTich.setOnClickListener(v -> navigateTo(R.id.nav_cau3));
         btnRSS.setOnClickListener(v -> navigateTo(R.id.nav_cau4));
         btnThuVienAnh.setOnClickListener(v -> navigateTo(R.id.nav_cau5));

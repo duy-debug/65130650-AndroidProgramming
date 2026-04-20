@@ -7,21 +7,17 @@
     <item
         android:id="@+id/nav_cau1"
         android:icon="@android:drawable/alert_light_frame"
-        android:title="Câu 1" />
-    <item
-        android:id="@+id/nav_cau2"
-        android:icon="@android:drawable/alert_light_frame"
-        android:title="Câu 2" />
+        android:title="Câu 4" />
     <item
         android:id="@+id/nav_cau3"
         android:icon="@android:drawable/alert_light_frame"
-        android:title="Câu 3" />
+        android:title="Câu 1" />
     <item
         android:id="@+id/nav_cau4"
         android:icon="@android:drawable/alert_light_frame"
-        android:title="Câu 4" />
+        android:title="Câu 5" />
     <item
         android:id="@+id/nav_cau5"
         android:icon="@android:drawable/alert_light_frame"
-        android:title="Câu 5" />
+        android:title="Câu 3" />
 </menu>

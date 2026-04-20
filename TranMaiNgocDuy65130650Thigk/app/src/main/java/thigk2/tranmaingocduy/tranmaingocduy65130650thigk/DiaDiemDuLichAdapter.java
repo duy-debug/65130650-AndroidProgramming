@@ -12,21 +12,21 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class CongTrinhAdapter extends RecyclerView.Adapter<CongTrinhAdapter.ItemCongTrinhViewHolder> {
+public class DiaDiemDuLichAdapter extends RecyclerView.Adapter<DiaDiemDuLichAdapter.ItemCongTrinhViewHolder> {
 
     private final Context context;
-    private final ArrayList<CongTrinh.ItemCongTrinh> dsCongTrinh;
+    private final ArrayList<DiaDiemDuLich.ItemCongTrinh> dsCongTrinh;
     private final OnItemClickListener onItemClickListener;
 
     public interface OnItemClickListener {
-        void onItemClick(CongTrinh.ItemCongTrinh congTrinh);
+        void onItemClick(DiaDiemDuLich.ItemCongTrinh congTrinh);
     }
 
-    public CongTrinhAdapter(Context context, ArrayList<CongTrinh.ItemCongTrinh> dsCongTrinh) {
+    public DiaDiemDuLichAdapter(Context context, ArrayList<DiaDiemDuLich.ItemCongTrinh> dsCongTrinh) {
         this(context, dsCongTrinh, null);
     }
 
-    public CongTrinhAdapter(Context context, ArrayList<CongTrinh.ItemCongTrinh> dsCongTrinh, OnItemClickListener onItemClickListener) {
+    public DiaDiemDuLichAdapter(Context context, ArrayList<DiaDiemDuLich.ItemCongTrinh> dsCongTrinh, OnItemClickListener onItemClickListener) {
         this.context = context;
         this.dsCongTrinh = dsCongTrinh;
         this.onItemClickListener = onItemClickListener;
@@ -42,7 +42,7 @@ public class CongTrinhAdapter extends RecyclerView.Adapter<CongTrinhAdapter.Item
 
     @Override
     public void onBindViewHolder(@NonNull ItemCongTrinhViewHolder holder, int position) {
-        CongTrinh.ItemCongTrinh congTrinhCuThe = dsCongTrinh.get(position);
+        DiaDiemDuLich.ItemCongTrinh congTrinhCuThe = dsCongTrinh.get(position);
         holder.tvTieuDeCongTrinh.setText(congTrinhCuThe.getTieuDe());
         holder.tvNgayDangCongTrinh.setText(congTrinhCuThe.getNgayDang());
         holder.itemView.setOnClickListener(new View.OnClickListener() {

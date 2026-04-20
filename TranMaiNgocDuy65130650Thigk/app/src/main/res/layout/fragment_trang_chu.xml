@@ -91,17 +91,7 @@
                             app:backgroundTint="@color/button_blue"
                             app:cornerRadius="14dp" />
 
-                        <com.google.android.material.button.MaterialButton
-                            android:id="@+id/btnTrangChuBMI"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="8dp"
-                            android:layout_weight="1"
-                            android:text="Tính BMI"
-                            android:textAllCaps="false"
-                            android:textColor="@android:color/white"
-                            app:backgroundTint="@color/button_blue_light"
-                            app:cornerRadius="14dp" />
+
                     </LinearLayout>
 
                     <LinearLayout
@@ -116,7 +106,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
                             android:layout_weight="1"
-                            android:text="Tính diện tích"
+                            android:text="Diện tích và chu vi"
                             android:textAllCaps="false"
                             android:textColor="@android:color/white"
                             app:backgroundTint="@color/button_blue_light"
@@ -140,7 +130,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Danh sách bài báo"
+                        android:text="Địa Điểm Du Lịch"
                         android:textAllCaps="false"
                         android:textColor="@android:color/white"
                         app:backgroundTint="@color/button_blue_soft"

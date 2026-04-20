@@ -1,6 +1,6 @@
 package thigk2.tranmaingocduy.tranmaingocduy65130650thigk;
 
-public class CongTrinh {
+public class DiaDiemDuLich {
     public static class ItemCongTrinh {
         private String tieuDe;
         private String urlAnhDaiDien;

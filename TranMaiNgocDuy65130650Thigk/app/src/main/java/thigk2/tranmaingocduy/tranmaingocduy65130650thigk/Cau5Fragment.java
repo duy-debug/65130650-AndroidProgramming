@@ -56,22 +56,22 @@ public class Cau5Fragment extends Fragment {
         RecyclerView rvDanhSachAnh = view.findViewById(R.id.rvDanhSachBaiBao);
 
         // Tao danh sach anh co san trong drawable de hien thi len RecyclerView
-        ArrayList<CongTrinh.ItemCongTrinh> dsCongTrinh = new ArrayList<>();
-        dsCongTrinh.add(new CongTrinh.ItemCongTrinh("Công trình nghiên cứu về cảnh biển và môi trường sinh thái ven bờ", "anh1", "Ngày đăng: 01/04/2025"));
-        dsCongTrinh.add(new CongTrinh.ItemCongTrinh("Công trình khảo sát thiên nhiên và hệ sinh thái tại khu vực rừng nhiệt đới", "anh2", "Ngày đăng: 02/04/2025"));
-        dsCongTrinh.add(new CongTrinh.ItemCongTrinh("Công trình phân tích phong cảnh tự nhiên và giá trị bảo tồn cảnh quan", "anh3", "Ngày đăng: 03/04/2025"));
-        dsCongTrinh.add(new CongTrinh.ItemCongTrinh("Công trình tìm hiểu tiềm năng phát triển du lịch sinh thái bền vững", "anh4", "Ngày đăng: 04/04/2025"));
-        dsCongTrinh.add(new CongTrinh.ItemCongTrinh("Công trình minh họa ứng dụng hình ảnh trong giới thiệu không gian tự nhiên", "anh5", "Ngày đăng: 05/04/2025"));
+        ArrayList<DiaDiemDuLich.ItemCongTrinh> dsCongTrinh = new ArrayList<>();
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình giới thiệu địa điểm du lịch Tháp Bà Ponagar tại Nha Trang", "anh1", "Ngày đăng: 01/04/2025"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình tìm hiểu vẻ đẹp du lịch biển tại Hòn Chồng Nha Trang", "anh2", "Ngày đăng: 02/04/2025"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình khám phá khu du lịch VinWonders trên đảo Hòn Tre Nha Trang", "anh3", "Ngày đăng: 03/04/2025"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình giới thiệu danh lam thắng cảnh Bãi Dài nổi tiếng ở Nha Trang", "anh4", "Ngày đăng: 04/04/2025"));
+        dsCongTrinh.add(new DiaDiemDuLich.ItemCongTrinh("Công trình tìm hiểu vẻ đẹp tự nhiên và du lịch sinh thái tại đảo Bình Ba", "anh5", "Ngày đăng: 05/04/2025"));
 
         rvDanhSachAnh.setLayoutManager(new LinearLayoutManager(requireContext()));
 
         // Gan adapter de RecyclerView hien thi du lieu cong trinh
-        CongTrinhAdapter adapter = new CongTrinhAdapter(
+        DiaDiemDuLichAdapter adapter = new DiaDiemDuLichAdapter(
                 requireContext(),
                 dsCongTrinh,
-                new CongTrinhAdapter.OnItemClickListener() {
+                new DiaDiemDuLichAdapter.OnItemClickListener() {
                     @Override
-                    public void onItemClick(CongTrinh.ItemCongTrinh congTrinh) {
+                    public void onItemClick(DiaDiemDuLich.ItemCongTrinh congTrinh) {
                         Toast.makeText(requireContext(), "Bạn vừa chọn: " + congTrinh.getTieuDe(), Toast.LENGTH_SHORT).show();
                     }
                 }
